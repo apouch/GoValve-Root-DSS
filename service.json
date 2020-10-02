@@ -1,0 +1,35 @@
+{
+	"name": "GoValve-Root",
+	"version": "0.1.0",
+	"keywords": [
+		"aortic root",
+		"segmentation"
+	],
+	"shortdesc": "User guided segmentation of the aortic root",
+	"tags": [
+		{
+			"name": "Rotated Image",
+			"type": "MainImage",
+			"hint": "Resliced image",
+			"required": true
+		},
+		{
+			"name": "2D Segmentation Outline",
+			"type": "OverlayImage",
+			"hint": "User segmentation",
+			"required": true
+		},
+		{
+			"name": "VAJ",
+			"type": "PointLandmark",
+			"hint": "Ventriculo-aortic junction",
+			"required": true
+		},
+		{
+			"name": "STJ",
+			"type": "PointLandmark",
+			"hint": "Sino-tubular junction",
+			"required": true
+		}
+	]
+}
