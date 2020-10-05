@@ -30,6 +30,12 @@
 			"type": "PointLandmark",
 			"hint": "Sino-tubular junction",
 			"required": true
+		},
+		{
+			"name": "2D Segmentation Landmark",
+			"type": "PointLandmark",
+			"hint": "Any point landmark within 2D segmentation slice",
+			"required": true
 		}
 	]
 }
