@@ -9,13 +9,13 @@
 	"tags": [
 		{
 			"name": "Rotated Image",
-			"type": "MainImage",
+			"type": "OverlayImage",
 			"hint": "Resliced image",
 			"required": true
 		},
 		{
 			"name": "2D Segmentation Outline",
-			"type": "OverlayImage",
+			"type": "Segmentation",
 			"hint": "User segmentation",
 			"required": true
 		},
