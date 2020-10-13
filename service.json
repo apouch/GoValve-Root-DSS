@@ -1,6 +1,6 @@
 {
 	"name": "GoValve-Root",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"keywords": [
 		"aortic root",
 		"segmentation"
@@ -11,12 +11,6 @@
 			"name": "Rotated Image",
 			"type": "OverlayImage",
 			"hint": "Resliced image",
-			"required": true
-		},
-		{
-			"name": "2D Segmentation Outline",
-			"type": "OverlayImage",
-			"hint": "User segmentation",
 			"required": true
 		},
 		{
