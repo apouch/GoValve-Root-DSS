@@ -15,7 +15,7 @@
 		},
 		{
 			"name": "2D Segmentation Outline",
-			"type": "Segmentation",
+			"type": "OverlayImage",
 			"hint": "User segmentation",
 			"required": true
 		},
