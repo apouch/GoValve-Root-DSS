@@ -8,9 +8,15 @@
 	"shortdesc": "User guided segmentation of the aortic root",
 	"tags": [
 		{
+			"name": "Source Image",
+			"type": "MainImage",
+			"hint": "Original Image",
+			"required": true
+		},
+		{
 			"name": "Rotated Image",
 			"type": "OverlayImage",
-			"hint": "Resliced image",
+			"hint": "Reoriented Image",
 			"required": true
 		},
 		{
