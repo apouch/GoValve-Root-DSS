@@ -1,35 +1,53 @@
 {
 	"name": "GoValve-Root",
-	"version": "0.1.4",
+	"version": "0.2",
 	"keywords": [
 		"aortic root",
-		"segmentation"
+		"strain"
 	],
-	"shortdesc": "User guided segmentation of the aortic root",
+	"shortdesc": "User guided strain analysis of the aortic root",
 	"tags": [
 	
 		{
-			"name": "Rotated Image",
-			"type": "OverlayImage",
-			"hint": "Rotated image to be segmented",
+			"name": "Source",
+			"type": "MainImage",
+			"hint": "4D image of the aortic root",
 			"required": true
 		},
 		{
-			"name": "VAJ",
-			"type": "PointLandmark",
-			"hint": "Ventriculo-aortic junction",
+			"name": "Segmentation",
+			"type": "LabelImage",
+			"hint": "Segmentation of the aortic root in the reference frame",
 			"required": true
 		},
 		{
-			"name": "STJ",
-			"type": "PointLandmark",
-			"hint": "Sino-tubular junction",
+			"name": "Reference Frame",
+			"type": "TimePoint",
+			"hint": "Frame number of manual segmentation",
 			"required": true
 		},
 		{
-			"name": "2D Segmentation Landmark",
-			"type": "PointLandmark",
-			"hint": "Any point landmark within 2D segmentation slice",
+			"name": "Start Frame",
+			"type": "TimePoint",
+			"hint": "Frame number at the beginning of the cardiac cycle",
+			"required": true
+		},
+		{
+			"name": "Open Frame",
+			"type": "TimePoint",
+			"hint": "Frame number of aortic valve opening",
+			"required": true
+		},
+		{
+			"name": "Close Frame",
+			"type": "TimePoint",
+			"hint": "Frame number of aortic valve closure",
+			"required": true
+		},
+		{
+			"name": "End Frame",
+			"type": "TimePoint",
+			"hint": "Frame number at the end of the cardiac cycle",
 			"required": true
 		}
 	]
