@@ -1,6 +1,6 @@
 {
 	"name": "GoValve-Root",
-	"version": "1.1",
+	"version": "1.2",
 	"keywords": [
 		"aortic root",
 		"strain"
@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "Segmentation",
-			"type": "OverlayImage",
+			"type": "SegmentationImage",
 			"hint": "Segmentation of the aortic root in the reference frame",
 			"required": true
 		},
