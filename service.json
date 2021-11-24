@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "Segmentation",
-			"type": "SegmentationLabel",
+			"type": "OverlayImage",
 			"hint": "Segmentation of the aortic root in the reference frame",
 			"required": true
 		},
